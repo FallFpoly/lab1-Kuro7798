@@ -11,6 +11,10 @@ package com.mycompany.lab1;
 public class bai1 {
 
     public static void main(String[] args) {
-        // sinh viên code ở đây
+        //tính trung bình 3 số nguyên 
+        double a = 6, b = 7, c = 5;
+        double Tinhtrungbinh;
+        Tinhtrungbinh = (a * 2 + b + c) / 4;
+        System.out.println("TRUNG BNH: " + Tinhtrungbinh);
     }
 }
